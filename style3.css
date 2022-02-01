@@ -1,0 +1,19 @@
+@media (max-width:500px){
+html{
+  font-size: 62.5%;
+}
+.icons{
+
+  display: flex;
+  justify-content: space-between;
+}
+.icons .fad{
+  font-size: 4rem;
+}
+.done{
+  font-size: 2.6rem;
+  text-decoration: none;
+  color: red;
+}
+
+}
