@@ -18,4 +18,19 @@
   h1{
     font-size: 3.6rem;
   }
+  .first-comment{
+    display: flex;
+  }
+  .first-comment img{
+    width: 6rem;
+    border-radius: 50%;
+  }
+  .comment-box{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.452);
+    padding: 1rem 2rem;
+    border-radius: 2rem 2rem 2rem 0.5rem;
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
 }
