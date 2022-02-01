@@ -18,6 +18,10 @@
   h1{
     font-size: 3.6rem;
   }
+  h2{
+    color: gray;
+    text-align: center;
+  }
   .first-comment{
     display: flex;
   }
@@ -32,5 +36,27 @@
     border-radius: 2rem 2rem 2rem 0.5rem;
     font-size: 2rem;
     margin-left: 2rem;
+  }
+  .me-message{
+    background-color: rgb(255, 0, 140);
+    color: white;
+    font-size: 2rem;
+    padding: 0.2rem;
+    width: 25rem;
+    border-radius: 3rem 3rem 0.5rem 3rem;
+    margin-top: 3rem;
+    margin-left: 10rem;
+  }
+  .two-box{
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+  }
+  .three-box{
+    margin-top: 3rem;
+  }
+  .img-message{
+    width: 20rem;
+    margin-top: 2rem;
+    margin-left: 15rem;
   }
 }
