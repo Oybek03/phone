@@ -1,0 +1,56 @@
+@media (max-width:500px){
+
+  html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+  }
+  .icons{
+  
+    display: flex;
+    justify-content: space-between;
+  }
+  .icons .fad{
+    font-size: 4rem;
+  }
+  .done{
+    font-size: 2.6rem;
+    text-decoration: none;
+    color: red;
+  }
+  h1{
+    font-size: 3.6rem;
+  }
+  header img{
+    width: 18rem;
+    margin-left: 9rem;
+  }
+  .header-titles{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .left{
+    color: gray;
+  }
+  .right{
+    font-weight: bold;
+  }
+  .buttons{
+    margin-top: 10rem;
+    font-size: 4rem;
+    background-color: white;
+    box-shadow: 0px 0px 0.5rem rgba(128, 128, 128, 0.322);
+    padding: 1rem;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+   
+  }
+  #message{
+    color: red;
+  }
+  .buttons a{
+    color: black;
+  }
+}

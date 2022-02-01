@@ -22,6 +22,9 @@
     color: gray;
     text-align: center;
   }
+  header{
+    background-color: rgba(205, 92, 92, 0.123);
+  }
   .first-comment{
     display: flex;
   }
@@ -58,5 +61,16 @@
     width: 20rem;
     margin-top: 2rem;
     margin-left: 15rem;
+  }
+  .bottom-nav{
+    font-size: 4rem;
+    color: rgb(235, 28, 131);
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottom-nav input{
+    width: 30rem;
+    padding-right: 9rem ;
+    border-radius: 2rem;
   }
 }
