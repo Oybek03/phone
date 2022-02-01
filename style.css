@@ -23,7 +23,7 @@
   .discover {
     color: #e24e59;
   }
-  header{
+  header {
     background-color: wheat;
     padding-bottom: 2rem;
     border-radius: 20px;
@@ -57,7 +57,7 @@
     background-color: red;
     color: white;
   }
-  .first{
+  .first {
     margin-top: -4rem;
   }
 }
