@@ -1,5 +1,6 @@
 @media (max-width:500px){
-html{
+
+  html{
   font-size: 62.5%;
   font-family: sans-serif;
 }
@@ -18,5 +19,12 @@ html{
 }
 h1{
   font-size: 3.6rem;
+}
+.second-picture,.last-picture{
+  width: 9rem;
+  margin-left: 2rem;
+}
+.last-p p{
+  color: gray;
 }
 }
