@@ -1,0 +1,21 @@
+@media (max-width:500px){
+  html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+  }
+  .icons {
+    display: flex;
+
+    justify-content: space-between;
+    font-size: 4rem;
+  }
+  .icons i {
+    color: #000;
+  }
+  .icons i:active {
+    color: rgb(0, 255, 0);
+  }
+  h1{
+    font-size: 3.6rem;
+  }
+}
