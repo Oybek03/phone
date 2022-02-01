@@ -1,36 +1,40 @@
 @media (max-width: 500px) {
   html {
     font-size: 62.5%;
-  font-family: sans-serif;
+    font-family: sans-serif;
   }
   .icons {
     display: flex;
-    
+
     justify-content: space-between;
     font-size: 4rem;
   }
-  .icons i{
+  .icons i {
     color: #000;
   }
-  .icons i:active{
+  .icons i:active {
     color: rgb(0, 255, 0);
   }
-  .false{
+  .false {
     display: flex;
     justify-content: space-around;
     font-size: 2.4rem;
   }
-  .discover{
+  .discover {
     color: #e24e59;
   }
-  .likes{
-    
+  header{
+    background-color: wheat;
+    padding-bottom: 2rem;
+    border-radius: 20px;
+  }
+  .likes {
     /* display: flex; */
     justify-content: space-evenly;
     transform: translateY(-95%);
     text-align: center;
   }
-  .likes .far{
+  .likes .far {
     font-size: 4.8rem;
     background-color: greenyellow;
     padding: 1rem;
@@ -38,7 +42,7 @@
     color: white;
     margin-left: 1rem;
   }
-  .likes .fas{
+  .likes .fas {
     font-size: 5.6rem;
     background-color: white;
     padding: 2rem;
@@ -46,11 +50,14 @@
     color: red;
     box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.301);
   }
-  .likes .fal{
+  .likes .fal {
     font-size: 4.8rem;
     padding: 1.2rem;
     border-radius: 50%;
     background-color: red;
     color: white;
+  }
+  .first{
+    margin-top: -4rem;
   }
 }
